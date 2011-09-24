@@ -1,3 +1,6 @@
+var MemoryStream = require('../lib/memstream/index.js').MemoryStream,
+    assert = require('assert');
+
 
 function basicTest() {
 	
@@ -8,6 +11,7 @@ function basicTest() {
 	});
 	
 	stream.write('foo');
+	process.exit();
 }
 
 function delayTest() {
@@ -21,8 +25,9 @@ function delayTest() {
 		});
 		
 		stream.resume();
+		process.exit();
 	});
 	
 	stream.pause();
 	stream.write('foo');
-}
+};

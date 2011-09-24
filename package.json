@@ -6,5 +6,6 @@
     { "name": "Oliver Morgan", "email": "oliver.morgan@kohark.com" },
   ],
   "directories": { "lib": "./lib/memstream" },
+  "main":"./lib/memstream/index.js",
   "engines": { "node": ">= 0.1.98" }
 }
