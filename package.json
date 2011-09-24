@@ -2,10 +2,8 @@
   "name": "memstream",
   "description": "A robust and lightweight memory stream for node.js.",
   "version": "0.0.1",
-  "contributors": [
-    { "name": "Oliver Morgan", "email": "oliver.morgan@kohark.com" },
-  ],
-  "directories": { "lib": "./lib/memstream" },
-  "main":"./lib/memstream/index.js",
-  "engines": { "node": ">= 0.1.98" }
+  "author":"Oliver Morgan <ollym@kohark.com>",
+  "repository":{ "type": "git", "url": "git://github.com/ollym/memstream.git" },
+  "engines": { "node": ">= 0.1.98" },
+  "main":"index.js"
 }

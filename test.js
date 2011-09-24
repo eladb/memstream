@@ -1,4 +1,4 @@
-var MemoryStream = require('../lib/memstream/index.js').MemoryStream,
+var MemoryStream = require('memstream').MemoryStream,
     assert = require('assert');
 
 
