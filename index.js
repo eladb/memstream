@@ -1,6 +1,5 @@
 var util = require('util'),
-	sys = require('sys'),
-	events = require('events');
+    events = require('events');
 
 module.exports.createMemoryStream = function() {
 	
@@ -35,7 +34,7 @@ util.inherits(MemoryStream, events.EventEmitter);
 
 MemoryStream.prototype.pipe = function(destination, options) {
 	
-	var pump = sys.pump || util.pump;
+	var pump = util.pump;
 	
 	pump(this, destination);
 };
